@@ -34,7 +34,7 @@ public class homePage extends AppCompatActivity {
         });
         button_settings.setOnClickListener(v -> {
             // Navigate to the next screen, for example: TransitionActivity
-            Intent intent = new Intent(homePage.this, settingsPage.class);
+            Intent intent = new Intent(homePage.this, SettingsActivity.class);
             startActivity(intent);
         });
     }

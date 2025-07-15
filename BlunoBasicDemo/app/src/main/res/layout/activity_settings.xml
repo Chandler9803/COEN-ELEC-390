@@ -1,260 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_settings"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingsActivity">
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FAF3FF">
 
+    <!-- Toolbar replacement: Title -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="#6A4CAF"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:enabled="false"/>
+
+    <!-- Age -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+    <EditText
+        android:id="@+id/ageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:enabled="false"/>
+
+    <!-- Weight -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+    <EditText
+        android:id="@+id/weightText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Weight"
+        android:inputType="numberDecimal"
+        android:enabled="false"/>
+    <!-- Units for weight -->
+    <Spinner
+        android:id="@+id/weightUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <!-- Units -->
+
+    <EditText
+        android:id="@+id/unitsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Choose Units"
+        android:inputType="numberDecimal"
+        android:enabled="false"/>
+
+    <!-- Warning Level -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warning Level (% BAC)"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+    <EditText
+        android:id="@+id/warningText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Warning Level"
+        android:inputType="numberDecimal"
+        android:enabled="false"/>
+
+    <!-- Switches -->
     <Switch
         android:id="@+id/shareSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="372dp"
         android:text="Share Data"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.849"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="67dp"
-        android:layout_height="34dp"
-        android:layout_marginBottom="36dp"
-        android:text="Weight"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/ctnName1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.116"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/ageText"
-        android:layout_width="257dp"
-        android:layout_height="43dp"
-        android:digits="0123456789."
-        android:ems="15"
-        android:enabled="false"
-        android:inputType="text"
-        android:text="Enter Value"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.74"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="141dp" />
-
-    <EditText
-        android:id="@+id/weightText"
-        android:layout_width="257dp"
-        android:layout_height="43dp"
-        android:layout_marginBottom="36dp"
-        android:digits="0123456789."
-        android:ems="15"
-        android:enabled="false"
-        android:inputType="text"
-        android:text="Enter Value"
-        app:layout_constraintBottom_toTopOf="@+id/ctnName2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.74"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/warningText"
-        android:layout_width="130dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="8dp"
-        android:digits="0123456789."
-        android:ems="15"
-        android:enabled="false"
-        android:inputType="text"
-        android:text="Enter Value"
-        app:layout_constraintBottom_toTopOf="@+id/pairBtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ctnName2"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/ctnName1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Units (% BAC)"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.14"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="265dp" />
-
-    <EditText
-        android:id="@+id/unitsText"
-        android:layout_width="128dp"
-        android:layout_height="44dp"
-        android:digits="0123456789."
-        android:ems="15"
-        android:enabled="false"
-        android:inputType="text"
-        android:text="Enter Value"
-        app:layout_constraintBottom_toTopOf="@+id/ctnName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ctnName1"
-        app:layout_constraintVertical_bias="0.131" />
-
-    <EditText
-        android:id="@+id/nameText"
-        android:layout_width="257dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="90dp"
-        android:digits="0123456789."
-        android:ems="15"
-        android:enabled="false"
-        android:inputType="text"
-        android:text="Enter Value"
-        app:layout_constraintBottom_toTopOf="@+id/ageText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.74"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar2" />
-
-    <TextView
-        android:id="@+id/ctnName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Warning Level (%BAC)"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.923"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="265dp" />
-
-    <Button
-        android:id="@+id/saveBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="Save"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/unitsText"
-        app:layout_constraintVertical_bias="0.892" />
-
-    <TextView
-        android:id="@+id/ctnName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
-        android:text="Bluetooth"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/alertSwitch"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.124"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar2"
-        android:layout_width="424dp"
-        android:layout_height="57dp"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageButton
-        android:id="@+id/backBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:background="#00FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baseline_arrow_back_24" />
-
-    <ImageButton
-        android:id="@+id/editFieldBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="#00FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/outline_action_key_24" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Settings"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar2" />
+        android:textSize="18sp"
+        android:paddingTop="24dp"/>
 
     <Switch
         android:id="@+id/alertSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="372dp"
         android:text="Vibration Alert"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textSize="18sp"
+        android:paddingTop="8dp"/>
 
+    <!-- Pair Button -->
     <Button
-        android:id="@+id/pairBtn"
-        android:layout_width="120dp"
-        android:layout_height="37dp"
-        android:layout_marginBottom="64dp"
-        android:text="Pair Device"
-        app:cornerRadius="@null"
-        app:layout_constraintBottom_toTopOf="@+id/shareSwitch"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.58"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:id="@+id/backBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back Button"
+        android:layout_marginTop="24dp"/>
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="67dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="92dp"
-        android:text="Name"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.116"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar2"
-        app:layout_constraintVertical_bias="0.555" />
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="16dp"/>
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="67dp"
-        android:layout_height="34dp"
-        android:layout_marginBottom="8dp"
-        android:text="Age"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.116"
-        app:layout_constraintStart_toStartOf="parent" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
