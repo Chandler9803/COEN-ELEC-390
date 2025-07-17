@@ -34,21 +34,6 @@
         android:hint="Enter Name"
         android:enabled="false"/>
 
-    <!-- Age -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Age"
-        android:textSize="18sp"
-        android:paddingTop="16dp"/>
-    <EditText
-        android:id="@+id/ageText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Age"
-        android:inputType="number"
-        android:enabled="false"/>
-
     <!-- Weight -->
     <TextView
         android:layout_width="match_parent"
@@ -86,25 +71,28 @@
         android:id="@+id/warningLevel1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Warning Level (% BAC)"
+        android:text="% BAC Limit "
         android:textSize="18sp"
         android:paddingTop="16dp"/>
-    <EditText
-        android:id="@+id/warningText"
+    <Spinner
+        android:id="@+id/BACLimit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Warning Level"
-        android:inputType="numberDecimal"
-        android:enabled="false"/>
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
 
     <!-- Switches -->
-    <Switch
-        android:id="@+id/shareSwitch"
+    <Button
+        android:id="@+id/sharedataButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Share Data"
-        android:textSize="18sp"
-        android:paddingTop="24dp"/>
+        android:text="Data Share Consent"
+        android:drawableStart="@drawable/ic_share"
+        android:drawablePadding="8dp"
+        android:background="#6A4CAF"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
 
     <Switch
         android:id="@+id/alertSwitch"

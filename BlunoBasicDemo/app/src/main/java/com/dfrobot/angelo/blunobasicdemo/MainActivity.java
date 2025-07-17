@@ -16,7 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.os.Handler;
 import android.os.Looper;
-
+import android.widget.CheckBox;
 import java.util.List;
 //import java.util.logging.Handler;
 

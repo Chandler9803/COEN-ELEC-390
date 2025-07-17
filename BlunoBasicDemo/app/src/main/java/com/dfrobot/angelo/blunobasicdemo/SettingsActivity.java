@@ -24,7 +24,7 @@ public class SettingsActivity extends AppCompatActivity {
     //private boolean isEditMode = false;
     //protected EditText editText1, editText2, editText3, editText4, editText5;
     //  protected Button saveBtn, pairBtn;
-    protected Button backBtn;
+    protected Button backBtn,sharedataButton;
     // protected ImageButton editFieldBtn;
 
     //protected Switch alertSwitch, shareSwitch;
@@ -63,8 +63,13 @@ public class SettingsActivity extends AppCompatActivity {
 
 
         //   setEditMode(false);
-
-
+        //datashare dialog fragment
+        Button sharadataButton = findViewById(R.id.sharedataButton);
+        sharadataButton.setOnClickListener(v -> {
+            datashare_consent dialog = datashare_consent.newInstance();
+            dialog.show(getSupportFragmentManager(), "ConsentDialog");
+        });
+        //back button function
         backBtn = findViewById(R.id.backBtn);
 
         backBtn.setOnClickListener(v -> {
@@ -72,14 +77,23 @@ public class SettingsActivity extends AppCompatActivity {
             Intent intent = new Intent(SettingsActivity.this, homePage.class);
             startActivity(intent);
         });
-        //dropdown menu
-        Spinner dropdown = findViewById(R.id.weightUnits);
+        //weight units weightDropdown menu
+        Spinner weightDropdown = findViewById(R.id.weightUnits);
         //user can choose between kg and lbs
         String[] items = new String[]{"kg", "lbs"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
 
-        dropdown.setAdapter(adapter);
+        weightDropdown.setAdapter(adapter);
+        //weight units weightDropdown menu
+        Spinner BACdropdown = findViewById(R.id.BACLimit);
+        //user can choose between kg and lbs
+        String[] itemsBAC = new String[]{"Quebec", "British Columbia","Ontario","Alberta","Nova Scotia","Saskatchewan","Yukon"
+        ,"New Brunswick","Manitoba","Newfoundland","Prince Edward Island"};
+
+        ArrayAdapter<String> adapterBAC = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, itemsBAC);
+
+        BACdropdown.setAdapter(adapterBAC);
     }
 }
 
