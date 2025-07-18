@@ -46,7 +46,16 @@ public class datashare_consent extends DialogFragment {
         //SharedPreferences prefs = getActivity().getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
         //boolean currentConsent = prefs.getBoolean(KEY_CONSENT_GIVEN, false);
         cbConsent.setChecked(currentConsent);
+        btnSave.setOnClickListener(v -> {
+            // Optional: notify listener if needed
+            if (listener != null) {
+                listener.onConsentChanged(cbConsent.isChecked());
+            }
 
+            // Close the dialog
+            dismiss();
+        });
+        btnCancel.setOnClickListener(v -> dismiss());
        // setupClickListeners();
 
         return view;
