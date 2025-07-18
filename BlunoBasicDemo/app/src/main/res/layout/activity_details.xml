@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#FAF3FF">
+
+    <!-- 1st TextView: Sensor Output -->
+    <TextView
+        android:id="@+id/textBAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00%"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 2nd TextView: Estimated sober time -->
+    <TextView
+        android:id="@+id/text_estimateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You may be below 0.03% in 2 hours"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- 3rd TextView: Time and Location Info -->
+    <TextView
+        android:id="@+id/text_timeLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: 10:24 PM\nLocation: Unknown"
+        android:textSize="14sp"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Back to Home Button -->
+    <Button
+        android:id="@+id/button_home"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Home screen"
+        android:backgroundTint="#6A4CAF"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
