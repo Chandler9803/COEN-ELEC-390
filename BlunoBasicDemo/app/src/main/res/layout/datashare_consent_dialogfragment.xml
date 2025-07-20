@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Sharing Consent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app would like to collect and share the following data to improve your experience:"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Usage analytics and app performance data\n• Device information (model, OS version)\n• Crash reports and error logs\n• User preferences and settings"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingExtra="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your data will be anonymized and used solely for app improvement purposes. You can change this setting at any time."
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <CheckBox
+        android:id="@+id/cb_consent"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginBottom="20dp"
+        android:padding="8dp"
+        android:text="I consent to sharing my data with this app"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:background="#6A4CAF"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="12dp"
+            android:padding="12dp"
+            android:minWidth="80dp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:background="#6A4CAF"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:minWidth="80dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
