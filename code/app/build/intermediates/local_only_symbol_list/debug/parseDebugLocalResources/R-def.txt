@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button_homePage
+id main
+id text_BAC
+id text_estimateTime
+id text_testDetails
+layout activity_details
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string button_homePage
+style Base.Theme.Sprint1
+style Theme.Sprint1
+xml backup_rules
+xml data_extraction_rules

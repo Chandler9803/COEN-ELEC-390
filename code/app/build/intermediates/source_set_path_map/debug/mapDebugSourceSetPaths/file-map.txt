@@ -1,0 +1,37 @@
+com.example.sprint1.app-activity-1.10.1-0 /Users/ccr/.gradle/caches/8.11.1/transforms/075f51a2d6b29bd8893f32bced365c2f/transformed/activity-1.10.1/res
+com.example.sprint1.app-viewpager2-1.0.0-1 /Users/ccr/.gradle/caches/8.11.1/transforms/0ad87621ccb52ec1fba24e89d3c557ec/transformed/viewpager2-1.0.0/res
+com.example.sprint1.app-core-ktx-1.13.0-2 /Users/ccr/.gradle/caches/8.11.1/transforms/11de71648cfd0de5646c13b7a26bb9c0/transformed/core-ktx-1.13.0/res
+com.example.sprint1.app-fragment-1.5.4-3 /Users/ccr/.gradle/caches/8.11.1/transforms/1665fa70428d9ee2daf20ebeab5525f6/transformed/fragment-1.5.4/res
+com.example.sprint1.app-startup-runtime-1.1.1-4 /Users/ccr/.gradle/caches/8.11.1/transforms/1b7a84802059c2a33e9b973acefed863/transformed/startup-runtime-1.1.1/res
+com.example.sprint1.app-lifecycle-livedata-core-2.6.2-5 /Users/ccr/.gradle/caches/8.11.1/transforms/1cd7f64161d8da3e11afd739b5c13cfe/transformed/lifecycle-livedata-core-2.6.2/res
+com.example.sprint1.app-lifecycle-runtime-2.6.2-6 /Users/ccr/.gradle/caches/8.11.1/transforms/38d6422fddb41f2beee6b554b07f0fde/transformed/lifecycle-runtime-2.6.2/res
+com.example.sprint1.app-core-runtime-2.2.0-7 /Users/ccr/.gradle/caches/8.11.1/transforms/3c51da73b5974f15675fdc558b36ece5/transformed/core-runtime-2.2.0/res
+com.example.sprint1.app-coordinatorlayout-1.1.0-8 /Users/ccr/.gradle/caches/8.11.1/transforms/3ed48aaa96ecf54a9aa46b5f6c585c29/transformed/coordinatorlayout-1.1.0/res
+com.example.sprint1.app-lifecycle-process-2.6.2-9 /Users/ccr/.gradle/caches/8.11.1/transforms/4a3bd10b2261e2c13192c7423a6f9c66/transformed/lifecycle-process-2.6.2/res
+com.example.sprint1.app-emoji2-1.3.0-10 /Users/ccr/.gradle/caches/8.11.1/transforms/5cadf05d52f74b94a7633181e54ebd65/transformed/emoji2-1.3.0/res
+com.example.sprint1.app-profileinstaller-1.4.0-11 /Users/ccr/.gradle/caches/8.11.1/transforms/76d29bbc5732b176ae79935e03b63c7a/transformed/profileinstaller-1.4.0/res
+com.example.sprint1.app-core-viewtree-1.0.0-12 /Users/ccr/.gradle/caches/8.11.1/transforms/8a2a219837fdb842f047ad8fec2dffe2/transformed/core-viewtree-1.0.0/res
+com.example.sprint1.app-appcompat-1.7.1-13 /Users/ccr/.gradle/caches/8.11.1/transforms/8eeb6b2acfde209a64863cdc0eeb6b7b/transformed/appcompat-1.7.1/res
+com.example.sprint1.app-recyclerview-1.1.0-14 /Users/ccr/.gradle/caches/8.11.1/transforms/98b7f6d93509a780a5712c8489eaa816/transformed/recyclerview-1.1.0/res
+com.example.sprint1.app-drawerlayout-1.1.1-15 /Users/ccr/.gradle/caches/8.11.1/transforms/9a268fb0271c09b9673de5c11c83a908/transformed/drawerlayout-1.1.1/res
+com.example.sprint1.app-savedstate-1.2.1-16 /Users/ccr/.gradle/caches/8.11.1/transforms/a62f0b82bec073cbae1d587ff9c0c766/transformed/savedstate-1.2.1/res
+com.example.sprint1.app-transition-1.5.0-17 /Users/ccr/.gradle/caches/8.11.1/transforms/ac57e658237a1f3622648cae1662d27b/transformed/transition-1.5.0/res
+com.example.sprint1.app-annotation-experimental-1.4.0-18 /Users/ccr/.gradle/caches/8.11.1/transforms/af52f3941164902b11a7e68a1a11c562/transformed/annotation-experimental-1.4.0/res
+com.example.sprint1.app-lifecycle-viewmodel-2.6.2-19 /Users/ccr/.gradle/caches/8.11.1/transforms/b3e572a317d898cd30e3890500a44196/transformed/lifecycle-viewmodel-2.6.2/res
+com.example.sprint1.app-constraintlayout-2.2.1-20 /Users/ccr/.gradle/caches/8.11.1/transforms/b88bc4304e885c6b7d34c6e47c43bd60/transformed/constraintlayout-2.2.1/res
+com.example.sprint1.app-play-services-basement-18.4.0-21 /Users/ccr/.gradle/caches/8.11.1/transforms/badb6b19942a8b48959c41694e86936a/transformed/play-services-basement-18.4.0/res
+com.example.sprint1.app-lifecycle-viewmodel-savedstate-2.6.2-22 /Users/ccr/.gradle/caches/8.11.1/transforms/bcbb46d8fd2c8bcb5bbf0799ea91ef64/transformed/lifecycle-viewmodel-savedstate-2.6.2/res
+com.example.sprint1.app-cardview-1.0.0-23 /Users/ccr/.gradle/caches/8.11.1/transforms/cb1dcfa5b696bb45ef6b5d89e37d8f66/transformed/cardview-1.0.0/res
+com.example.sprint1.app-appcompat-resources-1.7.1-24 /Users/ccr/.gradle/caches/8.11.1/transforms/d35da7a937eefca07c5af09c322cda22/transformed/appcompat-resources-1.7.1/res
+com.example.sprint1.app-lifecycle-livedata-2.6.2-25 /Users/ccr/.gradle/caches/8.11.1/transforms/dd474d49280126500afa369bef1fc570/transformed/lifecycle-livedata-2.6.2/res
+com.example.sprint1.app-core-1.13.0-26 /Users/ccr/.gradle/caches/8.11.1/transforms/eceb65e2089b57fa134647dc95faa5a9/transformed/core-1.13.0/res
+com.example.sprint1.app-play-services-base-18.5.0-27 /Users/ccr/.gradle/caches/8.11.1/transforms/f4dcfed186b95efaf61fa48d82e69e7a/transformed/play-services-base-18.5.0/res
+com.example.sprint1.app-emoji2-views-helper-1.3.0-28 /Users/ccr/.gradle/caches/8.11.1/transforms/f6fd6ffacced6e68795ed09f51ade4f0/transformed/emoji2-views-helper-1.3.0/res
+com.example.sprint1.app-material-1.12.0-29 /Users/ccr/.gradle/caches/8.11.1/transforms/fa2ec703209854dfad1e31dc83aab7bc/transformed/material-1.12.0/res
+com.example.sprint1.app-pngs-30 /Users/ccr/Desktop/concordia/concordia/2025/2025 summer/COEN 390/Sprint 1/code/app/build/generated/res/pngs/debug
+com.example.sprint1.app-resValues-31 /Users/ccr/Desktop/concordia/concordia/2025/2025 summer/COEN 390/Sprint 1/code/app/build/generated/res/resValues/debug
+com.example.sprint1.app-packageDebugResources-32 /Users/ccr/Desktop/concordia/concordia/2025/2025 summer/COEN 390/Sprint 1/code/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.sprint1.app-packageDebugResources-33 /Users/ccr/Desktop/concordia/concordia/2025/2025 summer/COEN 390/Sprint 1/code/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.sprint1.app-debug-34 /Users/ccr/Desktop/concordia/concordia/2025/2025 summer/COEN 390/Sprint 1/code/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.sprint1.app-debug-35 /Users/ccr/Desktop/concordia/concordia/2025/2025 summer/COEN 390/Sprint 1/code/app/src/debug/res
+com.example.sprint1.app-main-36 /Users/ccr/Desktop/concordia/concordia/2025/2025 summer/COEN 390/Sprint 1/code/app/src/main/res
